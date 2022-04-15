@@ -10,8 +10,61 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <script src="bootstrap/js/bootstrap.js"></script> -->
+    <style>
+        body{
+            margin : 50px 0px 0px;
+            background-color: #00ADB5;
+            background: #AAD8D3 ;
+        }
+        section{
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+        }
+        
+        .logo{
+            padding-top: 20px;
+            width: 200px;
+            float: left;
+        }
+        
+        .container1{
+            position: relative;
+            top: 20px;
+            color: black;
+            padding: 100px auto;
+            border-radius: 20px;
+            
+        }
+        
+        section{
+            padding : 100px auto;
+        }
+
+        h3{
+            display: inline-block;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+
+        }
+        p{
+            position: relative;
+            left: 20px;
+            width: 1000px;
+
+            padding-left: 20px;
+        }
+
+        
+
+
+    </style>
     <title>Document</title>
 </head>
 
@@ -26,7 +79,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a href="" class="nav-link">Home</a>
+                        <a href="" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link">About</a>
@@ -37,7 +90,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            Clubs
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">TRC</a></li>
@@ -48,10 +101,26 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
+                    <!-- <form class="container-fluid justify-content-end">
+                        <button class="btn btn-outline-success me-2" type="button">sign in</button>
+                        <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+                    </form> -->
                 </ul>
             </div>
         </nav>
     </header>
+
+    <main>
+        <section>
+            <div class="container1">
+                <a href="">
+                    <h3>GDSC DDU</h3>
+                    <img class="logo" src="img/gdsc-logo.png" alt="logo of gdsc club">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iusto quas nesciunt delectus nobis tenetur. Sequi similique aliquam explicabo, sapiente mollitia voluptates quisquam soluta consequuntur cumque, quia sint vel nam.</p>
+                </a>
+            </div>
+        </section>
+    </main>
 
 
 
