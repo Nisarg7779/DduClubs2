@@ -1,0 +1,47 @@
+body{
+    margin : 50px 0px 0px;
+    background-color: #00ADB5;
+    background: #AAD8D3 ;
+}
+section{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.logo{
+    padding-top: 20px;
+    width: 200px;
+    float: left;
+}
+
+.container1{
+    position: relative;
+    top: 20px;
+    color: black;
+    padding: 100px auto;
+    border-radius: 20px;
+    
+}
+
+section{
+    padding : 100px auto;
+}
+
+h3{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+p{
+    position: relative;
+    left: 20px;
+    width: 1000px;
+
+    padding-left: 20px;
+}
+
