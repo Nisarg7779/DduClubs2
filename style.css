@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
 
 body{
     margin : 0px;
@@ -6,6 +8,11 @@ body{
     padding-top: 50px;
     background-color: #00ADB5;
     background: #AAD8D3 ;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+
 }
 header{
     position: fixed;
@@ -23,6 +30,12 @@ section{
     width: 200px;
     float: left;
 }
+.logo-csi{
+    padding: 10px 30px;
+    width: 200px;
+    float :left;
+}
+
 
 .container1{
     display: block;
@@ -57,6 +70,10 @@ p{
     max-width: 1000px;
     /* padding-left: 20px; */
 }
+a:hover{
+    color: black;
+}
+
 @media screen and (max-width : 800px) {
     h3{
         right: 0px;
@@ -69,10 +86,37 @@ p{
         padding: 20px 10px;
     }
 
+    .logo-csi{
+        float :left;
+        width: 150px;
+        padding: 0px 20px;
+    }
+
     p{
         display: block;
     }
-    
-
 }
 
+.logopic{
+    filter: opacity(0.2);
+    padding: 0%;
+    margin: 0%;
+    height: 40px;
+}
+
+.dropdown-item{
+    padding:0px 20px;
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
+footer{
+    display: flex;
+    background-color: #212529;
+    color: aliceblue;
+    justify-content: center;
+    height: 50px;
+    margin-top: 50px;
+}
