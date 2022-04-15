@@ -1,2 +1,2 @@
 # DduClubs
-Information about clbs of ddu
+Information about clubs of ddu
